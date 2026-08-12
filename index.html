@@ -3,266 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akash | Data & AI Solutions Engineer</title>
-    <meta name="description" content="Portfolio of Akash - Data & AI Solutions Engineer specializing in Microsoft Fabric, Python, Google ADK Multi-Agent Systems, and Cloud Data Pipelines.">
-    <!-- Google Fonts -->
+    <title>Akash | Data & Software Engineer</title>
+    <meta name="description" content="Portfolio of Akash - Data & Software Engineer specializing in Data Systems, Python, Microsoft Fabric, and Distributed Systems.">
+    <!-- Clean System & Inter Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!-- Background Animated Gradients -->
-    <div class="bg-gradient-orb orb-1"></div>
-    <div class="bg-gradient-orb orb-2"></div>
-
-    <!-- Navigation Header -->
-    <header class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">Akash<span class="dot">.ai</span></a>
-            <nav class="nav-links" id="nav-links">
-                <a href="#about" class="nav-link active">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
-                <a href="#projects" class="nav-link">Projects</a>
-                <a href="#certifications" class="nav-link">Certifications</a>
-                <a href="#contact" class="btn btn-primary btn-sm">Get in Touch</a>
+    <!-- Minimalist Top Navigation Bar -->
+    <header class="header">
+        <div class="container nav-inner">
+            <a href="#" class="brand">akash</a>
+            <nav class="nav-menu">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#credentials">Credentials</a>
+                <a href="#contact" class="nav-contact">Contact</a>
             </nav>
-            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
-            </button>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="about" class="hero-section">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <div class="badge-pill">
-                    <span class="pulse-icon"></span> Available for AI & Data Engineering Opportunities
-                </div>
-                <h1 class="hero-title">
-                    Hi, I'm <span class="gradient-text">Akash</span> <br>
-                    Data & AI Solutions Engineer
-                </h1>
-                <p class="hero-description">
-                    Building scalable multi-agent AI systems, automated data pipelines, and analytics infrastructure with 
-                    <strong>Microsoft Fabric</strong>, <strong>Python</strong>, <strong>Google ADK 2.0</strong>, and <strong>Cloud Technologies</strong>.
-                </p>
-                <div class="hero-actions">
-                    <a href="#projects" class="btn btn-primary">
-                        View Projects <i class="fa-solid fa-arrow-right"></i>
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <i class="fa-regular fa-envelope"></i> Contact Me
-                    </a>
-                </div>
-                <div class="hero-stats">
-                    <div class="stat-item">
-                        <span class="stat-number">9+</span>
-                        <span class="stat-label">AI Agents Engineered</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">100%</span>
-                        <span class="stat-label">Production Grade Code</span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">Cloud</span>
-                        <span class="stat-label">GCP & Azure Fabric</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="hero-visual">
-                <div class="code-card-glass">
-                    <div class="code-header">
-                        <div class="window-buttons">
-                            <span class="btn-dot red"></span>
-                            <span class="btn-dot yellow"></span>
-                            <span class="btn-dot green"></span>
-                        </div>
-                        <span class="code-title">akash_engineer.py</span>
-                    </div>
-                    <div class="code-body">
-                        <pre><code><span class="keyword">class</span> <span class="class-name">DataAIEngineer</span>:
-    <span class="keyword">def</span> <span class="function">__init__</span>(self):
-        self.name = <span class="string">"Akash"</span>
-        self.focus = [
-            <span class="string">"Multi-Agent AI Systems"</span>,
-            <span class="string">"Microsoft Fabric Analytics"</span>,
-            <span class="string">"PySpark & Delta Lake"</span>
-        ]
-        self.status = <span class="string">"Ready to Deploy"</span>
+    <!-- Clean Hero Section -->
+    <section id="about" class="section hero">
+        <div class="container">
+            <h1 class="name-heading">Akash</h1>
+            <p class="role-title">Data & Software Engineer</p>
+            <p class="bio-text">
+                Specializing in data pipelines, analytics infrastructure, and resilient multi-agent systems. 
+                Experienced with <strong>Microsoft Fabric</strong>, <strong>Python</strong>, <strong>PySpark</strong>, and cloud data architecture.
+            </p>
 
-    <span class="keyword">def</span> <span class="function">solve_problem</span>(self, complex_data):
-        return self.pipeline.transform(
-            accuracy=<span class="string">"100%"</span>, 
-            latency=<span class="string">"ultra-fast"</span>
-        )</code></pre>
-                    </div>
-                </div>
+            <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-dark">View Engineering Work</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills-section">
+    <!-- Featured Engineering Projects -->
+    <section id="projects" class="section">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Technical Expertise</h2>
-                <p class="section-subtitle">Core technologies and frameworks I work with</p>
-            </div>
-            
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
-                    <h3>Python & AI Frameworks</h3>
-                    <p>Google ADK 2.0, FastAPI, Streamlit, PySpark, LangChain, OpenTelemetry.</p>
-                    <div class="skill-tags">
-                        <span>Python</span><span>FastAPI</span><span>Streamlit</span><span>ADK 2.0</span>
-                    </div>
-                </div>
+            <h2 class="section-label">Selected Projects</h2>
 
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
-                    <h3>Data & Analytics Engineering</h3>
-                    <p>Microsoft Fabric, Delta Lake, Lakehouse architecture, SQL, DAX, Power BI.</p>
-                    <div class="skill-tags">
-                        <span>MS Fabric</span><span>Delta Lake</span><span>DAX</span><span>SQL</span>
-                    </div>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
-                    <h3>Cloud Architecture</h3>
-                    <p>Google Cloud Platform (GCP), Microsoft Azure, Docker containerization, REST APIs.</p>
-                    <div class="skill-tags">
-                        <span>GCP</span><span>Azure</span><span>Docker</span><span>REST APIs</span>
-                    </div>
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h3>AI Security & Governance</h3>
-                    <p>PII scrubbing filters, Injection defense shields, Human-in-the-Loop (HITL) gates.</p>
-                    <div class="skill-tags">
-                        <span>PII Redaction</span><span>Guardrails</span><span>Audit Logging</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">Production-grade solutions engineered from scratch</p>
-            </div>
-
-            <div class="projects-grid">
+            <div class="projects-list">
                 <!-- Project 1 -->
-                <div class="project-card">
-                    <div class="project-badge">Google ADK 2.0 • Multi-Agent</div>
-                    <h3 class="project-title">✈️ TripPilot-AI: Proactive Travel Concierge</h3>
-                    <p class="project-desc">
-                        Event-driven, multi-agent AI system with 9 specialized sub-agents that proactively resolves flight delays, severe weather warnings, and budget alerts before travelers ask.
-                    </p>
-                    <ul class="project-features">
-                        <li><i class="fa-solid fa-check"></i> Dual-layer security shield (PII Redaction & Injection Defense).</li>
-                        <li><i class="fa-solid fa-check"></i> Human-in-the-Loop approval gate for DB modifications.</li>
-                        <li><i class="fa-solid fa-check"></i> Integrated with FastMCP tools (Maps, Weather, Calendar).</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span>Google ADK</span><span>Python</span><span>FastAPI</span><span>Streamlit</span><span>SQLite</span>
+                <article class="project-row">
+                    <div class="project-meta">
+                        <span class="project-tag">Multi-Agent System</span>
+                        <span class="project-year">2026</span>
                     </div>
-                </div>
+                    <div class="project-info">
+                        <h3 class="project-name">TripPilot-AI</h3>
+                        <p class="project-summary">
+                            Proactive travel concierge system built on Google ADK 2.0. Integrates 9 specialized agents for real-time disruption monitoring, automated itinerary adjustments, and PII security guardrails.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Google ADK</span>
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>Streamlit</span>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </article>
 
                 <!-- Project 2 -->
-                <div class="project-card">
-                    <div class="project-badge">Micro-SaaS • Gemini API</div>
-                    <h3 class="project-title">⚡ PitchPilot AI: Upwork & Cold Outreach Engine</h3>
-                    <p class="project-desc">
-                        High-converting proposal generator that turns raw job descriptions into 3 tailored strategy angles, minimizing Connects wasted on Upwork with pattern-interrupt hooks.
-                    </p>
-                    <ul class="project-features">
-                        <li><i class="fa-solid fa-check"></i> Generates 3 proposal angles (Consultative, Short, Case-Study).</li>
-                        <li><i class="fa-solid fa-check"></i> Proposal Win-Score Auditor assessing hook strength.</li>
-                        <li><i class="fa-solid fa-check"></i> Zero-data retention server architecture.</li>
-                    </ul>
-                    <div class="project-tech">
-                        <span>Gemini 1.5 Flash</span><span>Streamlit</span><span>Python</span><span>REST API</span>
+                <article class="project-row">
+                    <div class="project-meta">
+                        <span class="project-tag">Web Application</span>
+                        <span class="project-year">2026</span>
                     </div>
-                </div>
+                    <div class="project-info">
+                        <h3 class="project-name">PitchPilot AI</h3>
+                        <p class="project-summary">
+                            Outreach and proposal generation tool utilizing Gemini Flash API. Features zero-data retention architecture, proposal scoring analytics, and rate-limiting safeguards.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Gemini API</span>
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications-section">
+    <!-- Skills & Stack -->
+    <section id="skills" class="section">
         <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Certifications & Credentials</h2>
-                <p class="section-subtitle">Verified professional achievements & cloud training</p>
-            </div>
+            <h2 class="section-label">Technical Capabilities</h2>
 
-            <div class="cert-grid">
-                <div class="cert-card">
-                    <div class="cert-badge-icon"><i class="fa-solid fa-award"></i></div>
-                    <h3>Microsoft Fabric Analytics Engineer</h3>
-                    <p class="cert-issuer">Microsoft Certified • DP-600</p>
-                    <p class="cert-detail">Lakehouse architecture, Dataflows Gen2, Direct Lake DAX modeling, and PySpark transformations.</p>
+            <div class="capabilities-grid">
+                <div class="capability-col">
+                    <h4>Languages & Core</h4>
+                    <ul>
+                        <li>Python (Async, FastAPI)</li>
+                        <li>SQL & Data Querying</li>
+                        <li>PySpark & Delta Lake</li>
+                        <li>DAX & Semantic Modeling</li>
+                    </ul>
                 </div>
 
-                <div class="cert-card">
-                    <div class="cert-badge-icon"><i class="fa-brands fa-aws"></i></div>
-                    <h3>AWS Cloud Training</h3>
-                    <p class="cert-issuer">Amazon Web Services</p>
-                    <p class="cert-detail">Cloud Infrastructure, IAM Security, Serverless Architecture, and Storage management.</p>
+                <div class="capability-col">
+                    <h4>Data & Cloud Systems</h4>
+                    <ul>
+                        <li>Microsoft Fabric</li>
+                        <li>Google Cloud Platform</li>
+                        <li>Lakehouse Architecture</li>
+                        <li>Dataflows & ETL Pipelines</li>
+                    </ul>
                 </div>
 
-                <div class="cert-card">
-                    <div class="cert-badge-icon"><i class="fa-solid fa-certificate"></i></div>
-                    <h3>Microsoft Applied Skills</h3>
-                    <p class="cert-issuer">Microsoft Credentials</p>
-                    <p class="cert-detail">Verified lab credentials in Data Lakehouse Implementation & Power BI Semantic Modeling.</p>
+                <div class="capability-col">
+                    <h4>Tools & Frameworks</h4>
+                    <ul>
+                        <li>Google ADK 2.0</li>
+                        <li>Streamlit</li>
+                        <li>Git & Version Control</li>
+                        <li>Docker Containerization</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Footer Section -->
-    <section id="contact" class="contact-section">
-        <div class="container text-center">
-            <div class="contact-box-glass">
-                <h2 class="section-title">Let's Build Something Great Together</h2>
-                <p class="contact-subtitle">Looking for an engineer to build AI systems, data pipelines, or web apps? Reach out!</p>
-                <div class="contact-buttons">
-                    <a href="mailto:your-email@example.com" class="btn btn-primary btn-lg">
-                        <i class="fa-solid fa-envelope"></i> Send Me an Email
-                    </a>
-                    <a href="https://github.com" target="_blank" class="btn btn-secondary btn-lg">
-                        <i class="fa-brands fa-github"></i> GitHub Profile
-                    </a>
-                    <a href="https://linkedin.com" target="_blank" class="btn btn-secondary btn-lg">
-                        <i class="fa-brands fa-linkedin"></i> LinkedIn
-                    </a>
+    <!-- Credentials & Certifications -->
+    <section id="credentials" class="section">
+        <div class="container">
+            <h2 class="section-label">Certifications</h2>
+
+            <div class="credentials-list">
+                <div class="cred-item">
+                    <div class="cred-title">Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)</div>
+                    <div class="cred-org">Microsoft</div>
                 </div>
+                <div class="cred-item">
+                    <div class="cred-title">AWS Cloud Training & Fundamentals</div>
+                    <div class="cred-org">Amazon Web Services</div>
+                </div>
+                <div class="cred-item">
+                    <div class="cred-title">Microsoft Applied Skills: Data Lakehouse & Power BI</div>
+                    <div class="cred-org">Microsoft Credentials</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Links -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-label">Contact</h2>
+            <p class="contact-desc">Open for software engineering, data engineering, and AI system opportunities.</p>
+            
+            <div class="contact-links">
+                <a href="mailto:your-email@example.com" class="link-item">Email</a>
+                <span class="sep">•</span>
+                <a href="https://github.com/akashgt" target="_blank" class="link-item">GitHub</a>
+                <span class="sep">•</span>
+                <a href="https://linkedin.com" target="_blank" class="link-item">LinkedIn</a>
             </div>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="container text-center">
-            <p>© 2026 Akash. Engineered with passion & Hosted on GitHub Pages.</p>
+        <div class="container">
+            <p>© 2026 Akash. Built cleanly with HTML & CSS.</p>
         </div>
     </footer>
 
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
 </body>
 </html>
